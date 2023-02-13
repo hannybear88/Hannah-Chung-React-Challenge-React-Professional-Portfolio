@@ -1,0 +1,455 @@
+* {
+  box-sizing: border-box;
+
+}
+/* this is the font and background color of the body */
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  background: rgb(0, 84, 120);
+}
+
+/* this consists of the nav and header sectionv*/
+
+header {
+  color: lightskyblue;
+  font-size: 10px;
+}
+
+nav {
+  background-color: lightblue;
+
+}
+
+.name-nav {
+  color: darkslategray;
+  font-family: Lucida;
+  text-shadow: -1px 1px 2px #000;
+  text-decoration: none;
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+
+  /* this is the about me section */
+}
+
+.banner-background {
+  background-image: url(./images/banner-background.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 250px;
+  max-width: 100%;
+  margin: 0px;
+  object-fit: fill;
+}
+
+.figure-aboutme {
+  font-family: Arial, Helvetica, sans-serif;
+  margin:auto;
+  padding: 30px;
+}
+
+/* this is the project section with boxes */
+
+.project {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: blanchedalmond;
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 15px;
+  margin: auto;
+  height: 300px !important;
+}
+
+.box {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  align-items: flex-end;
+  background-color: none;
+  color: none;
+
+  padding: 10px;
+  margin: 20px;
+  height: 200px;
+
+
+}
+
+.project1 {
+  /* 
+  background-image: url(./images/Project1.jpeg);
+background: stretch; */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.project1 img {
+  width: 1100px;
+
+  
+}
+
+/* This is what makes the boxes opaque and get darker when you hover over it*/
+
+
+.project1 img{
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+}
+.project1 img:hover {
+  opacity: 1;
+}
+.project1 img:hover{
+  box-shadow: inset 0px 0px 15px lightblue, 0 0 25px lightskyblue;
+}
+
+.box1 img:hover{
+  box-shadow: inset 0px 0px 15px lightblue, 0 0 25px lightskyblue;
+}
+.box2 img:hover{
+  box-shadow: inset 0px 0px 15px lightblue, 0 0 25px lightskyblue;
+}
+
+.box1 img {
+  height: 300px;
+  width: 50px;
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+
+}
+
+.box1 img:hover {
+  opacity: 1;
+}
+
+.box2 img {
+  height: 400px;
+  width:550px;
+ 
+  border-style: solid;
+  border-width: 20px;
+  border-radius: 10px;
+  transition: all 0.5s ease-in-out;
+  opacity: 0.5;
+}
+
+.box2 img:hover {
+  opacity: 1;
+}
+
+.box1,
+.box2 {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.img-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/*
+header {
+  background-image: url("https://cdn4.tropicalsky.co.uk/images/1800x600/lush-coastal-scenery-in-hawaii.jpg");
+  height: 400px;
+
+}
+*/
+header{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+nav ul{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none; /* Remove bullets */
+
+}
+nav ul a {
+  text-decoration: none;
+  color:white;
+  font-weight:600;
+}
+
+figure {
+  margin-top: -250px;
+}
+
+figure img {
+  border-radius: 100px;
+}
+
+
+header{
+  height:50px;
+  padding:20px;
+  background-color:rgb(7, 1, 49);
+}
+header nav{
+  padding: 10px;
+  background-color: rgb(12, 116, 243);
+  width:30%;
+}
+header .name{
+  padding: 10px;
+  background-color: rgb(12, 116, 243);
+  
+}
+nav ul li a {
+   opacity: 0.8;
+   transition:1s;
+}
+nav ul li a:hover{
+  opacity:1;
+  text-decoration: underline;
+}
+body{
+  background-color: rgb(86, 110, 108);
+}
+.banner{
+  background-image: url("https://cdn4.tropicalsky.co.uk/images/1800x600/lush-coastal-scenery-in-hawaii.jpg");
+  background-size:cover;
+  height: 400px;
+  display:flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.quote{
+padding:15px;
+color:white;
+background-color:rgba(0,0,0,0.3);
+border-radius:10px;
+font-family: Arial, Helvetica, sans-serif;
+}
+main {
+  display:flex;
+  align-items: stretch;
+  justify-content: space-around;
+  height:100%;
+}
+.left-section{
+  width:20%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  color:white;
+  text-decoration: underline;
+  border-right:5px solid white;
+  
+}
+.right-section{
+padding:20px;
+  width:50%;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.projects h3{
+padding:15px;
+color:white;
+background:rgba(0,0,0,0.3);
+margin-bottom:-55px;
+width:550px;
+text-align:center;
+
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.project1 h3{
+  width:1100px;
+}
+.contacts-links{
+  display:flex;
+  align-items:center;
+  justify-content: space-around;
+  width:100%;
+}
+.img-box{
+margin:10px;
+}
+.box2{
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+.small-screen{
+  display:none;
+} 
+
+
+.box1,.box2,.project1{
+  width: 100%;
+
+  
+}
+.contacts-links{
+  height:400px;
+}
+.left{
+  flex-grow: 0;  
+     /* do not grow   - initial value: 0 */
+  flex-shrink: 0;   
+  /* do not shrink - initial value: 1 */
+   flex-basis: 200px;
+ margin:20px;
+  border-right:4px solid white;
+  align-self: stretch;
+}  
+
+.left h3{
+  text-decoration: underline;
+  color:white;
+}
+
+.div1,.div2,.div3{
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.navbar-box{
+  display:none;
+}
+@media(max-width:780px){
+ 
+  .project1 h3{
+     width:100%;
+  }
+     .left{
+         display:none;
+     }
+    figure{
+     width:100%;
+       margin:20px;
+ 
+    }
+    figure img{
+     display:block;
+     margin:auto;
+    }
+    header{
+     flex-direction: column-reverse;
+     height:120px;
+    }
+    header nav{
+     align-self: stretch;
+     width:100%;
+    }
+ .banner{
+     background-image: url("https://prtimes.jp/i/42262/81/resize/d42262-81-686566-0.jpg");
+ 
+     /*
+      align-items:flex-end;
+      justify-content:flex-end;
+     */
+     align-items: center;
+     justify-content: center;
+ }
+ 
+ .quote{
+     margin:50px;
+ }
+  
+  .project1 img{
+     width:100%;
+     height:100%;
+  }
+ .small-screen{
+     display:block;
+ } 
+ .big-screen{
+     display:none;
+ } 
+ .box1,
+ .box2 {
+   flex-direction: column;
+   height:fit-content;
+ }
+ #AboutMe{
+     margin:40px;
+     padding:50px;
+     
+ }
+ 
+ .project1 ,.box2{
+     width:80%;
+     margin:auto;
+ }
+ }
+ 
+ 
+ @media(max-width:600px){
+   /*navbar menu */
+     
+   .projects h3{
+      width:100%;
+   }
+   .img-box img{
+     width:100%;
+   }
+   .img-box{
+     width:90%;
+   }
+  
+   .img-box{
+     margin:3px;
+     }
+     header{
+       height:fit-content
+     }
+     .project1 ,.box2{
+         width:97%;
+         margin:auto;
+     }
+     #AboutMe{
+         padding:0px;
+     }
+     .projects{
+         width:100%;
+     }
+     .left{
+         width:0;
+     }
+   
+ }
+ .banner{
+     width:100%;
+ }
+ figure{
+     width:100%;
+ }
+ #AboutMe{
+     width:100%;
+ }
+ .div1,.div2,.div3{
+     width:80%;
+     margin:auto;
+ }
+ 
+ .left{
+     width:0;
+ }
+ .projects div {
+     width:100%;
+     
+ }
+ .projects{
+     margin:auto;
+     
+ }
