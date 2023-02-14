@@ -11,6 +11,7 @@ To build this text editor,we will start with an existing application and impleme
 * [Installation](#installation)
 * [Getting Started with Create React App](#Getting-Started-with-Create-React-App)
 * [Tests](#Tests)
+* [Learn More](#Learn-More)
 * [User Story](#User-Story)
 * [Acceptance Criteria](#Acceptance-Criteria)
 * [Usage](#Usage)
