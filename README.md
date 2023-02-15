@@ -2,16 +2,14 @@
 HW CHALLENGE #20
 
 ## Description
-Our task for this challenge is to build a text editor that runs in the browser. The app will be a single-page application that meets the PWA criteria. Additionally, it will feature a number of data persistence techniques that serve as redundancy in case one of the options is not supported by the browser. The application will also function offline.
-
-To build this text editor,we will start with an existing application and implement methods for getting and storing data to an IndexedDB database. We will use a package called `idb`, which is a lightweight wrapper around the IndexedDB API. It features a number of methods that are useful for storing and retrieving data, and is used by companies like Google and Mozilla. [click here](https://github.com/hannybear88/Progressive-Web-Applications--PWA--Challenge-Text-Editor/tree/main/client/src/js)to see my code for this project.
+So far, we have completed multiple projects, our task is to create a portfolio, using our new React skills to help set us apart from other developers whose portfolios don’t use the latest technologies.[click here](https://github.com/hannybear88/Progressive-Web-Applications--PWA--Challenge-Text-Editor/tree/main/client/src/js)to see my code for this project.
 
 
 ## Table of Contents
 * [Installation](#installation)
 * [Getting Started with Create React App](#Getting-Started-with-Create-React-App)
-* [Tests](#Tests)
 * [Learn More](#Learn-More)
+* [Tests](#Tests)
 * [User Story](#User-Story)
 * [Acceptance Criteria](#Acceptance-Criteria)
 * [Usage](#Usage)
@@ -109,37 +107,37 @@ Testing restful API calls with Insomnia Core
 
 
 ## User Story
-- AS A developer
-- I WANT to create notes or code snippets with or without an internet connection
-- SO THAT I can reliably retrieve them for later use
+- AS AN employer looking for candidates with experience building single-page applications
+- I WANT to view a potential employee's deployed React portfolio of work samples
+- SO THAT I can assess whether they're a good candidate for an open position
 
 
 ## Acceptance Criteria
-- GIVEN a text editor web application
-- WHEN I open my application in my editor
-- THEN I should see a client server folder structure
-- WHEN I run `npm run start` from the root directory
-- THEN I find that my application should start up the backend and serve the client
-- WHEN I run the text editor application from my terminal
-- THEN I find that my JavaScript files have been bundled using webpack
-- WHEN I run my webpack plugins
-- THEN I find that I have a generated HTML file, service worker, and a manifest file
-- WHEN I use next-gen JavaScript in my application
-- THEN I find that the text editor still functions in the browser without errors
-- WHEN I open the text editor
-- THEN I find that IndexedDB has immediately created a database storage
-- WHEN I enter content and subsequently click off of the DOM window
-- THEN I find that the content in the text editor has been saved with IndexedDB
-- WHEN I reopen the text editor after closing it
-- THEN I find that the content in the text editor has been retrieved from our IndexedDB
-- WHEN I click on the Install button
-- THEN I download my web application as an icon on my desktop
-- WHEN I load my web application
-- THEN I should have a registered service worker using workbox
-- WHEN I register a service worker
-- THEN I should have my static assets pre cached upon loading along with subsequent pages and static assets
-- WHEN I deploy to Heroku
-- THEN I should have proper build scripts for a webpack application
+- GIVEN a single-page application portfolio for a web developer
+- WHEN I load the portfolio
+- THEN I am presented with a page containing a header, a section for content, and a footer
+- WHEN I view the header
+- THEN I am presented with the developer's name and navigation with titles corresponding to different sections of the portfolio
+- WHEN I view the navigation titles
+- THEN I am presented with the titles About Me, Portfolio, Contact, and Resume, and the title corresponding to the current section is highlighted
+- WHEN I click on a navigation title
+- THEN I am presented with the corresponding section below the navigation without the page reloading and that title is highlighted
+- WHEN I load the portfolio the first time
+- THEN the About Me title and section are selected by default
+- WHEN I am presented with the About Me section
+- THEN I see a recent photo or avatar of the developer and a short bio about them
+- WHEN I am presented with the Portfolio section
+- THEN I see titled images of six of the developer’s applications with links to both the deployed applications and the corresponding GitHub repository
+- WHEN I am presented with the Contact section
+- THEN I see a contact form with fields for a name, an email address, and a message
+- WHEN I move my cursor out of one of the form fields without entering text
+- THEN I receive a notification that this field is required
+- WHEN I enter text into the email address field
+- THEN I receive a notification if I have entered an invalid email address
+- WHEN I am presented with the Resume section
+- THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
+- WHEN I view the footer
+- THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
 
 ## Usage
@@ -148,10 +146,9 @@ Testing restful API calls with Insomnia Core
 ## Demo
 
 
-Click on the button below to be directed straight to the Heroku deployed application
+***Click on the image below to be directed straight to the deployed application***
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://nosql-social-network-api.herokuapp.com/)
-
+[![Hannah Chung React Professional Portfolio](/assets/images/name of image.png 'link to portfolio')](https://hannybear88.github.io/Hannah-Chung-React-Challenge-React-Professional-Portfolio/)
 Screenshots
 <!-- **TAGS**
 
@@ -240,12 +237,10 @@ If you need support or have any questions about the repo, please [open an issue]
 
 
 ## Credits
-- Starter code provided by UCSD 
 - Code by Hannah Chung
 
 
 ## Contributors
-- Starter code provided by UCSD 
 - Code by Hannah Chung
 
 

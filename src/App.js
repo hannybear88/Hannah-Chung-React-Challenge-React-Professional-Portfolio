@@ -6,6 +6,7 @@ import project2Img from "./images/Project2.jpeg";
 import project3Img from "./images/Project3.jpeg";
 import project4Img from "./images/Project4.jpeg";
 import project5Img from "./images/Project5.jpeg";
+import profilepictureImg from "./images/profilepicture.jpeg";
 
 function App() {
   return (
@@ -49,8 +50,7 @@ function App() {
         </div>
       </div>
       <figure>
-        <img
-          src="./assets/images/profile-picture.jpg"
+      <img src={profilepictureImg} 
           alt="photo of Hannah"
           width="300px"
           height="300px"
