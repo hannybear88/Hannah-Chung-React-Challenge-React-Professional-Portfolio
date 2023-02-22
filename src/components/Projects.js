@@ -32,7 +32,7 @@ function Projects(props) {
           <section class=" box2">
             <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html" target="_blank">
               <div class="img-box">
-                <h3>Project 2</h3>
+                <h3>Project 1</h3>
                 <img src={project2Img} />
               </div>
             </a>
@@ -41,16 +41,16 @@ function Projects(props) {
               target="_blank"
             >
               <div class="img-box">
-                <h3>Project 3</h3>
-                <img src={project3Img} />
+                <h3>Project 2</h3>
+                <img src={project2Img} />
               </div>
             </a>
           </section>
           <section class=" box2">
             <a href="https://hannybear88.github.io/Third-Party-APIs-Challenge-Work-Day-Scheduler/" target="_blank">
               <div class="img-box">
-                <h3>Project 2</h3>
-                <img src={project2Img} />
+                <h3>Project 3</h3>
+                <img src={project3Img} />
               </div>
             </a>
             <a
@@ -58,21 +58,21 @@ function Projects(props) {
               target="_blank"
             >
               <div class="img-box">
-                <h3>Project 3</h3>
-                <img src={project3Img} />
+                <h3>Project 4</h3>
+                <img src={project4Img} />
               </div>
             </a>
           </section>
           <section class=" box2">
             <a href="https://github.com/hannybear88/Progressive-Web-Applications--PWA--Challenge-Text-Editor">
               <div class="img-box">
-                <h3>Project 4</h3>
-                <img src={project4Img} />
+                <h3>Project 5</h3>
+                <img src={project5Img} />
               </div>
             </a>
             <a href="https://nosql-social-network-api.herokuapp.com/">
               <div class="img-box">
-                <h3>Project 5</h3>
+                <h3>Project 6</h3>
 
                 <img src={project5Img} />
               </div>
