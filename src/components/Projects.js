@@ -12,7 +12,7 @@ function Projects(props) {
           <h3>My Projects</h3>
         </div>
         <div class="projects" id="Work">
-          <a
+          {/* <a
             href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"
             target="_blank"
           >
@@ -28,17 +28,16 @@ function Projects(props) {
                 src="https://imgmedia.lbb.in/media/2019/10/5db70d3274cbd62b096810c2_1572277554314.jpg"
               />
             </section>
-          </a>
-
+          </a> */}
           <section class=" box2">
-            <a href="https://ev-charge-n-go.herokuapp.com/" target="_blank">
+            <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html" target="_blank">
               <div class="img-box">
                 <h3>Project 2</h3>
                 <img src={project2Img} />
               </div>
             </a>
             <a
-              href="https://hannybear88.github.io/Web-APIs-Challenge-Code-Quiz/"
+              href="https://ev-charge-n-go.herokuapp.com/"
               target="_blank"
             >
               <div class="img-box">
@@ -48,13 +47,30 @@ function Projects(props) {
             </a>
           </section>
           <section class=" box2">
-            <a href="under-construction4.html">
+            <a href="https://hannybear88.github.io/Third-Party-APIs-Challenge-Work-Day-Scheduler/" target="_blank">
+              <div class="img-box">
+                <h3>Project 2</h3>
+                <img src={project2Img} />
+              </div>
+            </a>
+            <a
+              href="https://expressjs-challenge-note-taker.herokuapp.com/"
+              target="_blank"
+            >
+              <div class="img-box">
+                <h3>Project 3</h3>
+                <img src={project3Img} />
+              </div>
+            </a>
+          </section>
+          <section class=" box2">
+            <a href="https://github.com/hannybear88/Progressive-Web-Applications--PWA--Challenge-Text-Editor">
               <div class="img-box">
                 <h3>Project 4</h3>
                 <img src={project4Img} />
               </div>
             </a>
-            <a href="under-construction5.html">
+            <a href="https://nosql-social-network-api.herokuapp.com/">
               <div class="img-box">
                 <h3>Project 5</h3>
 
@@ -68,3 +84,33 @@ function Projects(props) {
 }
 
 export default Projects;
+
+// import React from 'react';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+// // Individual Card build-out using props
+// function ProjectCards(props) {
+//     return (
+//       <div className="card">
+//         <div className="img-container">
+//           <img alt={props.name} src={props.image}/>
+//         </div>
+//         <div className="content">
+//               <p className="project-title" id="card-title">{props.name}</p>
+//               <p>
+//               <a href={props.github}><img src="https://img.icons8.com/color/48/000000/github--v1.png" alt="Repository" id="project-icon"/></a>
+//               <a href={props.deploy}><img src="https://img.icons8.com/color/48/000000/monitor.png" alt="Deployed Site" id="project-icon"/></a>
+//               </p>
+//               <p id="topics">
+//                     ({props.topics})
+//                 </p>
+//         </div>
+//       </div>
+//     );
+// }
+
+//   export default ProjectCards;
+
+
+
+
