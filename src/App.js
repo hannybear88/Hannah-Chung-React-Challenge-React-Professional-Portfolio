@@ -1,6 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { useState } from "react";
+import Footer from "./components/Footer";
 
 import Header from "./components/Header";
 import Contact from "./components/Contact";
@@ -30,6 +31,7 @@ function App() {
       <main>
           {render()}
       </main>
+      <Footer/>
     </div>
   );
 }
