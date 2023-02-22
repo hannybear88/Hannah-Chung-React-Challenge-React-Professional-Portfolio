@@ -6,7 +6,7 @@ function Navigation(props) {
     return (
     <div className=" row navigation" id="navigation">
         <NavLink to="/about">about </NavLink>
-        <NavLink to="/portfolio">portfolio </NavLink>
+        <NavLink to="/work">work </NavLink>
         <NavLink to="/contact">contact </NavLink>
         <NavLink to="/resume">resume</NavLink>
     </div>
