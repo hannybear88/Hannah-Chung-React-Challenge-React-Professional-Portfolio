@@ -1,5 +1,5 @@
 import React from 'react';
-import project1Img from "../images/Project1.jpeg";
+// import project1Img from "../images/Project1.jpeg";
 import project2Img from "../images/Project2.jpeg";
 import project3Img from "../images/Project3.jpeg";
 import project4Img from "../images/Project4.jpeg";
@@ -38,12 +38,12 @@ function Projects(props) {
                   {/* link for deployed */}
                   <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
                   {/* link for github repo */}
-                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                  <a href="https://github.com/hannybear88/Project-1-Project-DIY"><h4>Github repo</h4></a>
                 </div>
               </div>
             </a>
             <a
-              href="https://ev-charge-n-go.herokuapp.com/"
+              href="https://hannybear88.github.io/Web-APIs-Challenge-Code-Quiz/"
               target="_blank"
             >
               <div class="img-box">
@@ -51,23 +51,23 @@ function Projects(props) {
                 <img src={project2Img} />
                 <div className="floating">
                   {/* link for deployed */}
-                  <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
+                  <a href="https://hannybear88.github.io/Web-APIs-Challenge-Code-Quiz/"><h4>Deployed</h4></a>
                   {/* link for github repo */}
-                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                  <a href="https://github.com/hannybear88/Web-APIs-Challenge-Code-Quiz"><h4>Github repo</h4></a>
                 </div>
               </div>
             </a>
           </section>
           <section class=" box2">
-            <a href="https://hannybear88.github.io/Third-Party-APIs-Challenge-Work-Day-Scheduler/" target="_blank">
+            <a href="https://hannybear88.github.io/Server-Side-APIs-Challenge-Weather-Dashboard/" target="_blank">
               <div class="img-box">
                 <h3>Project 3</h3>
                 <img src={project3Img} />
                 <div className="floating">
                   {/* link for deployed */}
-                  <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
+                  <a href="https://hannybear88.github.io/Server-Side-APIs-Challenge-Weather-Dashboard/"><h4>Deployed</h4></a>
                   {/* link for github repo */}
-                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                  <a href="https://github.com/hannybear88/Server-Side-APIs-Challenge-Weather-Dashboard"><h4>Github repo</h4></a>
                 </div>
               </div>
             </a>
@@ -80,36 +80,36 @@ function Projects(props) {
                 <img src={project4Img} />
                 <div className="floating">
                   {/* link for deployed */}
-                  <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
+                  <a href="https://expressjs-challenge-note-taker.herokuapp.com/"><h4>Deployed</h4></a>
                   {/* link for github repo */}
-                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                  <a href="https://github.com/hannybear88/Express.js-Challenge-Note-Taker"><h4>Github repo</h4></a>
                 </div>
               </div>
             </a>
           </section>
           <section class=" box2">
-            <a href="https://github.com/hannybear88/Progressive-Web-Applications--PWA--Challenge-Text-Editor">
+            <a href="https://pwa-challenge-text-editor.herokuapp.com/">
               <div class="img-box">
                 <h3>Project 5</h3>
                 <img src={project5Img} />
                 <div className="floating">
                   {/* link for deployed */}
-                  <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
+                  <a href="https://pwa-challenge-text-editor.herokuapp.com/"><h4>Deployed</h4></a>
                   {/* link for github repo */}
-                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                  <a href="hhttps://github.com/hannybear88/Progressive-Web-Applications--PWA--Challenge-Text-Editor"><h4>Github repo</h4></a>
                 </div>
               </div>
             </a>
-            <a href="https://nosql-social-network-api.herokuapp.com/">
+            <a href="https://ev-charge-n-go.herokuapp.com/">
               <div class="img-box">
                 <h3>Project 6</h3>
 
                 <img src={project5Img} />
                 <div className="floating">
                   {/* link for deployed */}
-                  <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
+                  <a href="https://ev-charge-n-go.herokuapp.com/"><h4>Deployed</h4></a>
                   {/* link for github repo */}
-                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                  <a href="https://github.com/hannybear88/-Project-2-EV-Charge-N-Go"><h4>Github repo</h4></a>
                 </div>
               </div>
             </a>
