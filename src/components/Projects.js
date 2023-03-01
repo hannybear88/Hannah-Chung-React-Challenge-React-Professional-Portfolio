@@ -34,6 +34,12 @@ function Projects(props) {
               <div class="img-box">
                 <h3>Project 1</h3>
                 <img src={project2Img} />
+                <div className="floating">
+                  {/* link for deployed */}
+                  <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
+                  {/* link for github repo */}
+                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                </div>
               </div>
             </a>
             <a
@@ -43,6 +49,12 @@ function Projects(props) {
               <div class="img-box">
                 <h3>Project 2</h3>
                 <img src={project2Img} />
+                <div className="floating">
+                  {/* link for deployed */}
+                  <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
+                  {/* link for github repo */}
+                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                </div>
               </div>
             </a>
           </section>
@@ -51,6 +63,12 @@ function Projects(props) {
               <div class="img-box">
                 <h3>Project 3</h3>
                 <img src={project3Img} />
+                <div className="floating">
+                  {/* link for deployed */}
+                  <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
+                  {/* link for github repo */}
+                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                </div>
               </div>
             </a>
             <a
@@ -60,6 +78,12 @@ function Projects(props) {
               <div class="img-box">
                 <h3>Project 4</h3>
                 <img src={project4Img} />
+                <div className="floating">
+                  {/* link for deployed */}
+                  <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
+                  {/* link for github repo */}
+                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                </div>
               </div>
             </a>
           </section>
@@ -68,6 +92,12 @@ function Projects(props) {
               <div class="img-box">
                 <h3>Project 5</h3>
                 <img src={project5Img} />
+                <div className="floating">
+                  {/* link for deployed */}
+                  <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
+                  {/* link for github repo */}
+                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                </div>
               </div>
             </a>
             <a href="https://nosql-social-network-api.herokuapp.com/">
@@ -75,6 +105,12 @@ function Projects(props) {
                 <h3>Project 6</h3>
 
                 <img src={project5Img} />
+                <div className="floating">
+                  {/* link for deployed */}
+                  <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"><h4>Deployed</h4></a>
+                  {/* link for github repo */}
+                  <a href="https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio"><h4>Github repo</h4></a>
+                </div>
               </div>
             </a>
           </section>

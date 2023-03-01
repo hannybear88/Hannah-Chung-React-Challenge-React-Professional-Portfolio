@@ -11,6 +11,7 @@ function Header(props) {
       <nav>
         <ul>
           <li
+            className = {props.selectedPage == "About" ? "selected" : ""}
             onClick={() => {
               props.setSelectedPage("About");
             }}
@@ -18,16 +19,22 @@ function Header(props) {
             <a href="#About Me">AboutMe</a>
           </li>
           <li
+          className = {props.selectedPage == "Work" ? "selected" : ""}
             onClick={() => {
               props.setSelectedPage("Work");
             }}
           >
-            <a href="#Work">Work</a>
-          </li>
-          <li>
-            <a href={myResume} download>Resume</a>
+            <a href="#Work">Projects</a>
           </li>
           <li 
+          className = {props.selectedPage == "Resume" ? "selected" : ""}
+            onClick={() => {
+              props.setSelectedPage("Resume");
+            }}>
+            <a href="#Resume">Resume</a>
+          </li>
+          <li 
+          className = {props.selectedPage == "Contact" ? "selected" : ""}
             onClick={() => {
               props.setSelectedPage("Contact");
             }}>

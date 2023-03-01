@@ -8,6 +8,7 @@ import Contact from "./components/Contact";
 import About from "./components/About";
 import Banner from "./components/Banner";
 import Projects from "./components/Projects";
+import Resume from "./components/Resume";
 
 function App() {
 
@@ -21,12 +22,14 @@ function App() {
       return <Projects />
     } else if (selectedPage == "Contact") {
       return <Contact />
+    } else if (selectedPage == "Resume") {
+      return <Resume />
     }
   }
 
   return (
     <div className="App">
-      <Header setSelectedPage={setSelectedPage}/>
+      <Header setSelectedPage={setSelectedPage} selectedPage={selectedPage}/>
       <Banner />
       <main>
           {render()}

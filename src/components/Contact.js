@@ -7,21 +7,30 @@
 
 import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
-import { validateEmail } from '../utils/helpers';
+import { validateEmail } from '../utils/helper';
 // import Navigation from './components/Navigation';
-require('dotenv').config()
+// require('dotenv').config()
 
 
 function Contact() {
-  const [state, handleSubmit] = useForm(process.env.REACT_APP_FORM_ID);
+  // const [state, handleSubmit] = useForm({});
 
   const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+  const [isSuccess, setIsSuccess] = useState(false);
 
   const [errorMessage, setErrorMessage] = useState('');
   const { name, email, message } = formState;
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    console.log(formState)
+
+    if(formState.name && formState.email && formState.message) {
+      window.location.href = `mailto:hannahkchung88@gmail.com?subject=${formState.name}&body=${formState.email}`
+      setIsSuccess(true)
+    }
+
   //   if (!errorMessage) {
   //     console.log('Submit Form', formState);
   //   }
@@ -29,10 +38,10 @@ function Contact() {
 
   // function refreshPage() {
   //   window.location.reload(true);
-  // }
+  }
 
 
-  if (state.succeeded) {
+  if (isSuccess) {
     return (
       <div>
         <p>Thanks for reaching out!</p>
