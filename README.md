@@ -6,8 +6,7 @@ So far, we have completed multiple projects, our task is to create a portfolio, 
 
 
 ## Table of Contents
-* [Installation](#installation)
-* [Getting Started with Create React App](#Getting-Started-with-Create-React-App)
+* [Installation and Usage](#Installation-and-Usage)
 * [Learn More](#Learn-More)
 * [User Story](#User-Story)
 * [Acceptance Criteria](#Acceptance-Criteria)
@@ -18,17 +17,8 @@ So far, we have completed multiple projects, our task is to create a portfolio, 
 * [Contributors](#Contributors)
 
 
-## Installation
-1. Clone the repo
-2. Install all dependencies 
-    - `npm init -y`
-    - `npm` install 
-3. Start the server 
-4.   - `npm` start
 
-5. Open Insomnia Core to test API routes
-
-## Getting Started with Create React App
+## Installation and Usage
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -133,14 +123,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 - WHEN I view the footer
 - THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter) 
 
-
-## Usage
-
-
 ## Demo
-
-
-
 
 [Hannah Chung React Professional Portfolio](https://hannybear88.github.io/Hannah-Chung-React-Challenge-React-Professional-Portfolio/)
 
