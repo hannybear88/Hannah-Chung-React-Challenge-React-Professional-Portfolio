@@ -13,23 +13,12 @@ return(
         <div class="row justify-content-center" id="resume">
             <div class="mt-5 pl-5 pr-5">
                 Currently taking a full stack coding bootcamp. 
-
-                <p class="mt-5">
-                <a href="https://www.linkedin.com/in/hannah-chung/"><img src="https://img.icons8.com/color/48/000000/linkedin-2.png" alt="Hannah LinkedIn"/></a>
-                </p>
-                <p>
-                Download my full <a lassName="button is-primary"
-                href={process.env.PUBLIC_URL + "/HannahChungResume.02.2023.pdf"}
-                target="_blank" rel="noreferrer">resume</a>
-                <br></br>
-                </p>
             </div>
         </div>
-
         <div class="justify-content-center mt-5">
             <div id="front-back">
                 <h2>front end experience</h2>
-                <p>HTML, CSS (Bootstrap, Foundation, Bulma), JavaScript, jQuery, React.js, Angular.js, IndexedDB</p>
+                <p>HTML, CSS, Bootstrap, JavaScript, jQuery, React.js, and IndexedDB</p>
             </div>
     
             <div id="front-back" class="mt-5">
