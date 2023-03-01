@@ -1,16 +1,16 @@
-import React from 'react';
-import {NavLink} from "react-router-dom";
+// import React from 'react';
+// import {NavLink} from "react-router-dom";
 
-function Navigation(props) {   
+// function Navigation(props) {   
 
-    return (
-    <div className=" row navigation" id="navigation">
-        <NavLink to="/about">about </NavLink>
-        <NavLink to="/work">work </NavLink>
-        <NavLink to="/contact">contact </NavLink>
-        <NavLink to="/resume">resume</NavLink>
-    </div>
-  );
-}
+//     return (
+//     <div className=" row navigation" id="navigation">
+//         <NavLink to="/about">about </NavLink>
+//         <NavLink to="/work">work </NavLink>
+//         <NavLink to="/contact">contact </NavLink>
+//         <NavLink to="/resume">resume</NavLink>
+//     </div>
+//   );
+// }
 
-export default Navigation;
+// export default Navigation;

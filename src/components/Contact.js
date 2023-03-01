@@ -8,8 +8,7 @@
 import React, { useState } from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 import { validateEmail } from '../utils/helper';
-// import Navigation from './components/Navigation';
-// require('dotenv').config()
+
 
 
 function Contact() {
@@ -102,45 +101,3 @@ function Contact() {
 }
 
 export default Contact;
-
-
-
-
-// import React from "react";
-// import React, { useContext } from 'react';
-// import Fade from 'react-reveal/Fade';
-// import { Container } from 'react-bootstrap';
-// import PortfolioContext from '../../context/context';
-// import Title from '../Title/Title';
-
-// const Contact = () => {
-//   const { contact } = useContext(PortfolioContext);
-//   const { cta, btn, email } = contact;
-
-// function Contact(props) {
-//     const { cta, btn, email } = contact;
-//   return (
-//     <section id="contact">
-//     <Container>
-//       <Title title="Contact" />
-//       <Fade bottom duration={1000} delay={800} distance="30px">
-//         <div className="contact-wrapper">
-//           <p className="contact-wrapper__text">
-//             {cta || 'Would you like to work with me? Great!'}
-//           </p>
-//           <a
-//             target="_blank"
-//             rel="noopener noreferrer"
-//             className="cta-btn cta-btn--resume"
-//             href={email ? `mailto:${email}` : 'https://github.com/hannybear88/Hannah-Chung-React-Challenge-React-Professional-Portfolio'}
-//           >
-//             {btn || "Let's Talk"}
-//           </a>
-//         </div>
-//       </Fade>
-//     </Container>
-//   </section>
-//   );
-// }
-
-// export default Contact;
