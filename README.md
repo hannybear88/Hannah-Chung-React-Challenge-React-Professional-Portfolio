@@ -9,12 +9,10 @@ So far, we have completed multiple projects, our task is to create a portfolio, 
 * [Installation](#installation)
 * [Getting Started with Create React App](#Getting-Started-with-Create-React-App)
 * [Learn More](#Learn-More)
-* [Tests](#Tests)
 * [User Story](#User-Story)
 * [Acceptance Criteria](#Acceptance-Criteria)
 * [Usage](#Usage)
 * [Demo](#Demo)
-* [Technologies Used](#Technologies-Used)
 * [Support](#Support)
 * [Credits](#Credits)
 * [Contributors](#Contributors)
@@ -101,10 +99,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-## Tests
-Testing restful API calls with Insomnia Core
-[click here](https://docs.insomnia.rest/insomnia/install) to install Insomnia
-
 
 ## User Story
 - AS AN employer looking for candidates with experience building single-page applications
@@ -146,9 +140,12 @@ Testing restful API calls with Insomnia Core
 ## Demo
 
 
-***Click on the image below to be directed straight to the deployed application***
 
-[![Hannah Chung React Professional Portfolio](/assets/images/name of image.png 'link to portfolio')](https://hannybear88.github.io/Hannah-Chung-React-Challenge-React-Professional-Portfolio/)
+
+[Hannah Chung React Professional Portfolio](https://hannybear88.github.io/Hannah-Chung-React-Challenge-React-Professional-Portfolio/)
+
+<!-- [![Hannah Chung React Professional Portfolio](/assets/images/name of image.png 'link to portfolio')](https://hannybear88.github.io/Hannah-Chung-React-Challenge-React-Professional-Portfolio/) -->
+
 Screenshots
 <!-- **TAGS**
 
@@ -219,17 +216,6 @@ Screenshots
 
 * DELETE category by id
 ![DELETE category by id](/assets/images/DELETE_category_by_id_screenshot.png) -->
-
-
-## Technologies Used
-
-![Technologies](https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![Technologies](https://img.shields.io/badge/-Node.js-339933?logo=Node.js&logoColor=white)
-![Technologies](https://img.shields.io/badge/-npm-CB3837?logo=npm&logoColor=white)
-![Technologies](https://img.shields.io/badge/npm%20package-moment-%3CCOLOR%3E?style=flat-square&logo=npm)
-![Technologies](https://img.shields.io/badge/npm%20package-express-green?style=flat-square&logo=npm)
-![Technologies](https://img.shields.io/badge/npm%20package-mongoose-purple?style=flat-square&logo=npm) 
-![Technologies](https://img.shields.io/badge/Database-MongoDB-yellow?style=flat-square&logo=mongoDB) 
 
 
 ## Support
