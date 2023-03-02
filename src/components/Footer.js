@@ -38,7 +38,7 @@ function Footer(props) {
               }}
             ></i>
           </a>
-          <a href="#Twitter">
+          <a href="https://www.twitter.com">
             <i
               class="fa fa-twitter-square"
               style={{
