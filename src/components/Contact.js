@@ -6,7 +6,6 @@
 // WHEN I enter text into the email address field THEN I receive a notification if I have entered an invalid email address
 
 import React, { useState } from 'react';
-import { useForm, ValidationError } from '@formspree/react';
 import { validateEmail } from '../utils/helper';
 
 

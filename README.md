@@ -125,80 +125,23 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 ## Demo
 
-[Hannah Chung React Professional Portfolio](https://hannybear88.github.io/Hannah-Chung-React-Challenge-React-Professional-Portfolio/)
+Click the link to go straight to my deployed app! [Hannah Chung React Professional Portfolio](https://hannybear88.github.io/Hannah-Chung-React-Challenge-React-Professional-Portfolio/)
 
 <!-- [![Hannah Chung React Professional Portfolio](/assets/images/name of image.png 'link to portfolio')](https://hannybear88.github.io/Hannah-Chung-React-Challenge-React-Professional-Portfolio/) -->
 
 Screenshots
-<!-- **TAGS**
 
-* GET all tags 
-![Get all tags](assets/images/GET_all_tags_screenshot.png)
+* ABOUT ME
+![ABOUT ME Screenshot](src/images/hannah.react.professional.portfolio.about.me.screenshot.png)
 
-* GET one tag by id
-![GET one tag by id](assets/images/GET_one_tag_by_id_screenshot.png)
+* PROJECTS
+![MY PROJECTS](src/images/hannah.react.professional.projects.screenshot.png)
 
-* CREATE new tag
-![CREATE new tag](assets/images/CREATE_new_tag_screenshot.png)
+* RESUME
+![MY RESUME](src/images/hannah.react.professional.portfolio.resume.screenshot.png)
 
-* CREATE one tag by id after creating new tag
-![CREATE one tag by id after creating new tag](assets/images/GET_one_tag_by_id_after_creating_new_tag_screenshot.png)
-
-* UPDATE tag by id
-![UPDATE tag by id](/assets/images/UPDATE_tag_by_id.png)
-
-* GET one tag by id after updating new tag 
-![GET one tag by id after updating new tag ](/assets/images/GET_one_tag_by_id_after_updating_new_tag_screenshot.png)
-
-* DELETE tag by id
-![DELETE tag by id](assets/images/DELETE_tag_by_id_screenshot.png)
-
-**PRODUCTS**
-
-* GET all products
-![GET all products](/assets/images/GET_all_products_screenshot.png)
-
-* GET one product by id
-![GET one product by id](/assets/images/GET_one_product_by_id_screenshot.png)
-
-* CREATE new product
-![CREATE new product](/assets/images/CREATE_new_product_screenshot.png)
-
-* CREATE one product by id after creating new product
-![CREATE one tag by id after creating new tag](assets/images/GET_one_product_by_id_after_creating_new_product_screenshot.png)
-
-* UPDATE product by id
-![UPDATE product by id](/assets/images/UPDATE_product_by_id.png)
-
-* GET one product by id after updating new product
-![GET one tag by id after updating new tag ](/assets/images/GET_one_product_by_id_after_updating_new_product_screenshot.png)
-
-* DELETE product by id
-![DELETE product by id](/assets/images/DELETE_product_by_id_screenshot.png)
-
-**CATEGORIES**
-
-* GET all categories
-    ![GET all categories](/assets/images/GET_all_categories_screenshot.png)
-
-* GET one cateogry by id
-    ![GET one category by id](/assets/images/GET_one_category_by_id_screenshot.png)
-
-* CREATE new category
-![CREATE new category](/assets/images/CREATE_new_category_screenshot.png)
-
-* CREATE one category by id after creating new category
-![CREATE one tag by id after creating new tag](assets/images/GET_one_category_by_id_after_creating_new_category_screenshot.png)
-
-
-* UPDATE category by id
-![UPDATE category by id](/assets/images/UPDATE_category_by_id.png)
-
-* GET one category by id after updating new category
-![GET one tag by id after updating new tag ](/assets/images/GET_one_category_by_id_after_updating_new_category_screenshot.png)
-
-* DELETE category by id
-![DELETE category by id](/assets/images/DELETE_category_by_id_screenshot.png) -->
+* CONTACT ME
+![CONTACT ME](src/images/hannah.react.professional.contact.me.screenshot.png)
 
 
 ## Support
