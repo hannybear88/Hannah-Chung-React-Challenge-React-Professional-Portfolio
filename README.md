@@ -140,6 +140,12 @@ Screenshots
 * CONTACT ME
 ![CONTACT ME](src/images/hannah.react.professional.contact.me.screenshot.png)
 
+## Technologies Used
+
+![Technologies](https://img.shields.io/badge/-React-purple)
+![Technologies](https://img.shields.io/badge/-JavaScript-yellow)
+![Technologies](https://img.shields.io/badge/-GitHubPages-teal)
+![Technologies](https://img.shields.io/badge/-Node-red)
 
 ## Support
 If you need support or have any questions about the repo, please [open an issue](https://github.com/hannybear88/Model-View-Controller--MVC--Challenge-Tech-Blog/issues) or contact me via email at hannahkchung88@gmail.com. You can find more of my work on my GitHub, [hannybear88](https://github.com/hannybear88/).
