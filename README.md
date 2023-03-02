@@ -10,13 +10,10 @@ So far, we have completed multiple projects, our task is to create a portfolio, 
 * [Learn More](#Learn-More)
 * [User Story](#User-Story)
 * [Acceptance Criteria](#Acceptance-Criteria)
-* [Usage](#Usage)
 * [Demo](#Demo)
 * [Support](#Support)
 * [Credits](#Credits)
 * [Contributors](#Contributors)
-
-
 
 ## Installation and Usage
 
