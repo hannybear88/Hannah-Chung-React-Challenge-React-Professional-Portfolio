@@ -8,16 +8,7 @@ function Footer(props) {
           <h3>Contact Me</h3>
         </div>
         <div class="contacts-links" id="Contact Me">
-          <a href="#777-777-777">
-            <i
-              class="fa fa-phone"
-              style={{
-                fontSize: "48px",
-                color: "black",
-                // "font-size:48px;color:black"
-              }}
-            ></i>
-          </a>
+         
           <a href="mailto:hannahkchung88@gmail.com">
             <i
               class="fa fa-envelope"
@@ -38,7 +29,7 @@ function Footer(props) {
               }}
             ></i>
           </a>
-          <a href="https://www.twitter.com">
+          <a href="https://twitter.com/OFCLCoderChung">
             <i
               class="fa fa-twitter-square"
               style={{
@@ -50,6 +41,15 @@ function Footer(props) {
           </a>
           <a href="https://www.linkedin.com/in/hannah-kim-chung-a0455a58/">
             <i class="fa fa-linkedin-square fa_custom fa-3x"></i>
+          </a>
+          <a href="https://stackoverflow.com/users/21315989/h-c">
+          <i class="fa fa-stack-overflow" 
+          style={{ 
+            fontSize: "48px",
+            color: "darkorange",
+          }}
+          ></i>
+      
           </a>
         </div>
       </div>
