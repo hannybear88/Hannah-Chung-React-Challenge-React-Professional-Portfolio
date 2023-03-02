@@ -15,7 +15,6 @@ function Footer(props) {
               style={{
                 fontSize: "48px",
                 color: "green",
-                // "font-size:48px;color:black"
               }}
             ></i>
           </a>
@@ -25,7 +24,6 @@ function Footer(props) {
               style={{
                 fontSize: "48px",
                 color: "black",
-                // "font-size:48px;color:black"
               }}
             ></i>
           </a>
