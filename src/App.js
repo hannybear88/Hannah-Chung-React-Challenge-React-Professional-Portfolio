@@ -3,7 +3,7 @@ import "./App.css";
 import { useState } from "react";
 import Footer from "./components/Footer";
 
-import Header from "./components/Header";
+import Navigation from "./components/Navigation";
 import Contact from "./components/Contact";
 import About from "./components/About";
 import Banner from "./components/Banner";
@@ -29,7 +29,7 @@ function App() {
 
   return (
     <div className="App">
-      <Header setSelectedPage={setSelectedPage} selectedPage={selectedPage}/>
+      <Navigation setSelectedPage={setSelectedPage} selectedPage={selectedPage}/>
       <Banner />
       <main>
           {render()}
