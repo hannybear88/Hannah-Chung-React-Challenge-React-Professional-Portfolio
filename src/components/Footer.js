@@ -35,12 +35,16 @@ function Footer(props) {
               style={{
                 fontSize: "48px",
                 color: "lightblue",
-                // "font-size:48px;color:black"
               }}
             ></i>
           </a>
           <a href="https://www.linkedin.com/in/hannah-kim-chung-a0455a58/">
-            <i class="fa fa-linkedin-square fa_custom fa-3x"></i>
+            <i class="fa fa-linkedin-square fa_custom fa-3x"
+             style={{ 
+              fontSize: "48px",
+              color: "blue",
+            }}
+            ></i>
           </a>
           <a href="https://stackoverflow.com/users/21315989/h-c">
           <i class="fa fa-stack-overflow" 
@@ -49,7 +53,6 @@ function Footer(props) {
             color: "darkorange",
           }}
           ></i>
-      
           </a>
         </div>
       </div>
