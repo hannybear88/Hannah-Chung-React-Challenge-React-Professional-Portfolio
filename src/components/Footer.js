@@ -48,7 +48,7 @@ function Footer(props) {
               }}
             ></i>
           </a>
-          <a href="https://www.linkedin.com/in/hannah-chung-463061b4/">
+          <a href="https://www.linkedin.com/in/hannah-kim-chung-a0455a58/">
             <i class="fa fa-linkedin-square fa_custom fa-3x"></i>
           </a>
         </div>

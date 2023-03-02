@@ -45,7 +45,6 @@ function Contact() {
       <div>
         <p>Thanks for reaching out!</p>
         <button className="button is-medium is-primary is-half m-6" onClick={()=> window.open("/#contact")}>Back to About</button>
-        {/* This form button is broken. It was supposed to refresh the page so you can submit a new form, but I'm changing this bug into a feature that takes you back to the about section. */}
       </div>
     );
 }
