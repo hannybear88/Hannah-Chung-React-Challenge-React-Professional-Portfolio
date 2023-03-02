@@ -20,10 +20,10 @@ function App() {
       return <About />
     } else if (selectedPage == "Work") {
       return <Projects />
-    } else if (selectedPage == "Contact") {
-      return <Contact />
     } else if (selectedPage == "Resume") {
       return <Resume />
+    } else if (selectedPage == "Contact") {
+      return <Contact />
     }
   }
 
