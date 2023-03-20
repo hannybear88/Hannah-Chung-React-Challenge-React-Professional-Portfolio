@@ -17,11 +17,23 @@ header {
 }
 
 nav {
-  background-color: lightblue;
+  background-color: lightblue ;
 
 }
 
+#myNav {
+  background-color: lightblue !important;
+}
 
+* {
+  outline: 1px red solid;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+  align-self: flex-end;
+  justify-self: flex-end;
+}
 
 .name-nav {
   color: darkslategray;
