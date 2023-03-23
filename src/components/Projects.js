@@ -32,7 +32,7 @@ function Projects(props) {
           <section class=" box2">
             <a href="https://hannybear88.github.io/Project-1-Project-DIY/index.html" target="_blank">
               <div class="img-box">
-                <h3>Project 1</h3>
+                <h3>LET'S GO DIY</h3>
                 <img src={project2Img} />
                 <div className="floating">
                   {/* link for deployed */}
@@ -47,7 +47,7 @@ function Projects(props) {
               target="_blank"
             >
               <div class="img-box">
-                <h3>Project 2</h3>
+                <h3>WEATHER API CODE QUIZ</h3>
                 <img src={project2Img} />
                 <div className="floating">
                   {/* link for deployed */}
@@ -61,7 +61,7 @@ function Projects(props) {
           <section class=" box2">
             <a href="https://hannybear88.github.io/Server-Side-APIs-Challenge-Weather-Dashboard/" target="_blank">
               <div class="img-box">
-                <h3>Project 3</h3>
+                <h3>SERVER SIDE API WEATHER DASHBOARD</h3>
                 <img src={project3Img} />
                 <div className="floating">
                   {/* link for deployed */}
@@ -76,7 +76,7 @@ function Projects(props) {
               target="_blank"
             >
               <div class="img-box">
-                <h3>Project 4</h3>
+                <h3>EXPRESSJS NOTE TAKER</h3>
                 <img src={project4Img} />
                 <div className="floating">
                   {/* link for deployed */}
@@ -90,26 +90,26 @@ function Projects(props) {
           <section class=" box2">
             <a href="https://pwa-challenge-text-editor.herokuapp.com/">
               <div class="img-box">
-                <h3>Project 5</h3>
-                <img src={project5Img} />
-                <div className="floating">
-                  {/* link for deployed */}
-                  <a href="https://pwa-challenge-text-editor.herokuapp.com/"><h4>Deployed</h4></a>
-                  {/* link for github repo */}
-                  <a href="hhttps://github.com/hannybear88/Progressive-Web-Applications--PWA--Challenge-Text-Editor"><h4>Github repo</h4></a>
-                </div>
-              </div>
-            </a>
-            <a href="https://ev-charge-n-go.herokuapp.com/">
-              <div class="img-box">
-                <h3>Project 6</h3>
-
+                <h3>EV-CHARGE-N-GO</h3>
                 <img src={project5Img} />
                 <div className="floating">
                   {/* link for deployed */}
                   <a href="https://ev-charge-n-go.herokuapp.com/"><h4>Deployed</h4></a>
                   {/* link for github repo */}
                   <a href="https://github.com/hannybear88/-Project-2-EV-Charge-N-Go"><h4>Github repo</h4></a>
+                </div>
+              </div>
+            </a>
+            <a href="https://ev-charge-n-go.herokuapp.com/">
+              <div class="img-box">
+                <h3>PARENT HELPER HUB</h3>
+
+                <img src={project5Img} />
+                <div className="floating">
+                  {/* link for deployed */}
+                  <a href="https://parent-helper-hub.herokuapp.com/"><h4>Deployed</h4></a>
+                  {/* link for github repo */}
+                  <a href="https://github.com/cmarielorber/parent-helper-hub"><h4>Github repo</h4></a>
                 </div>
               </div>
             </a>
