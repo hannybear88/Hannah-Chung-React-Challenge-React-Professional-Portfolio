@@ -12,6 +12,8 @@ function Projects(props) {
           <h3>My Projects</h3>
         </div>
         <div class="projects" id="Work">
+          
+          {/* {Will update this at a later time} */}
           {/* <a
             href="https://hannybear88.github.io/Project-1-Project-DIY/index.html"
             target="_blank"
